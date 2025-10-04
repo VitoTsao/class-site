@@ -27,31 +27,7 @@
 
   <main class="container">
     <!-- 公告區 -->
-    <section id="announcements" class="card">
-      <h2>最新公告</h2>
-      <div id="announce-list" class="announce-list">
-        <!-- JS 會加入公告 -->
-      </div>
-
-      <details class="admin-panel">
-        <summary>新增公告（僅班代/老師使用，本版為本機示範）</summary>
-        <form id="announce-form">
-          <label>標題 <input type="text" id="announce-title" required></label>
-          <label>內容 <textarea id="announce-body" rows="3" required></textarea></label>
-          <label>重要性
-            <select id="announce-level">
-              <option value="normal">一般</option>
-              <option value="important">重要</option>
-              <option value="urgent">緊急</option>
-            </select>
-          </label>
-          <div class="form-actions">
-            <button type="submit">新增公告</button>
-            <button type="button" id="clear-announces">清除所有 (示範)</button>
-          </div>
-        </form>
-      </details>
-    </section>
+    
 
     <!-- 行事曆 -->
     <section id="calendar" class="card">
@@ -66,23 +42,8 @@
     </section>
 
     <!-- 檔案區 -->
-    <section id="files" class="card">
-      <h2>檔案與連結</h2>
-      <ul>
-        <li><a href="#" target="_blank">課程大綱（範例 PDF）</a></li>
-        <li><a href="#" target="_blank">作業繳交連結（Google 表單）</a></li>
-        <li><a href="#" target="_blank">班級群組（Line / Google Meet）</a></li>
-      </ul>
-    </section>
+    
 
-    <!-- 聯絡 -->
-    <section id="contact" class="card">
-      <h2>聯絡方式</h2>
-      <p>班導師：王老師（email：teacher@example.com）</p>
-      <p>班代：李同學（Line ID：example_line）</p>
-      <p>若需緊急聯絡，請使用電話：0912-345-678</p>
-    </section>
-  </main>
 
   <footer class="site-footer">
     <div class="container">
